@@ -3,3 +3,94 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#logo-airmax {
+    display: inline-block;
+    width: 75px;
+    margin-left: 10vw;
+}
+
+span {
+    display: inline-block;
+}
+
+.span {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 32px;
+    left: 22%;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 35px;
+    margin-left: 25vw;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 100px;
+    margin-left: 13vw;
+    margin-top: 20px;
+    margin-bottom: 23px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    width: 50%;
+    margin-left: 13vw;
+    margin-bottom: 39px;
+    line-height: 24px;
+    text-align: justify;
+    color: #808080;
+}
+
+button {
+    margin-left: 13vw;
+    height: 40px;
+    width: 100px;
+    background: red;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+a {
+    margin-left: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #808080;
+}
+
+#img-principal {
+    width: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.elemento {
+    width: 60px;
+    transition: 1s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.elemento:hover {
+    transform: translateY(-25px);
+}
+
+
+#color-black {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: black;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
