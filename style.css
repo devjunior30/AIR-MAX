@@ -2,24 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 #logo-airmax {
     display: inline-block;
     width: 75px;
-    margin-left: 10vw;
+    margin-left: 60px;
+    margin-right: 10vw;
 }
 
 span {
     display: inline-block;
-}
-
-.span {
     margin-left: 20px;
     margin-bottom: 30px;
     position: relative;
     bottom: 32px;
-    left: 22%;
     font-size: 20px;
     font-style: italic;
     font-weight: 900;
@@ -27,13 +25,13 @@ span {
 
 h3 {
     font-size: 35px;
-    margin-left: 25vw;
+    margin-left: 15vw;
     font-weight: bold;
 }
 
 h1 {
     font-size: 100px;
-    margin-left: 13vw;
+    margin-left: 5vw;
     margin-top: 20px;
     margin-bottom: 23px;
     font-weight: bold;
@@ -41,12 +39,12 @@ h1 {
 }
 
 p {
-    width: 50%;
-    margin-left: 13vw;
+    width: 31%;
+    margin-left: 5vw;
     margin-bottom: 39px;
     line-height: 24px;
     text-align: justify;
-    color: #808080;
+    color: #4F4F4F;
 }
 
 button {
@@ -67,28 +65,32 @@ a {
 }
 
 #img-principal {
-    width: 400px;
-    width: 400px;
+    width: 60%;
     display: flex;
     justify-content: flex-end;
+    position: absolute;
+    right: 20%;
+    top: 10%;
+    transform: skew(18deg, -0.06turn);
 }
 
 .elemento {
     width: 60px;
-    transition: 1s;
     cursor: pointer;
     margin: 10px;
+    border: 5px rgb(128,128,128, .6) solid;
+    border-radius: 15px;
+    margin-top: 40px;
 }
 
-.elemento:hover {
-    transform: translateY(-25px);
+#div-elemento {
+    margin-left: 50px;
 }
-
 
 #color-black {
     position: absolute;
-    width: 50%;
-    height: 100%;
+    width: 51%;
+    height: 100vh;
     background: black;
     right: 0;
     top: 0;
