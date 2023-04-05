@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+   
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+   
     <link rel="stylesheet" href="style.css">
     <title>NIKE AIR-MAX REPLICA </title>
 </head>
@@ -36,36 +40,59 @@
                 quisquam repellendus, tempora eum explicabo impedit quam cupiditate minus hic autem praesentium vero ut
                 totam architecto excepturi.</p>
 
-            <button>Shop Now</button>
+            <button id="button">Shop Now</button>
 
-            <a href="">See Details</a>
+    
+                 <a>See Details</a> 
         </div>
 
         <div>
-            <img id="img-principal" src="./assets/air1.PNG" alt="">
+            <img id="img-principal" src="./assets/air2.PNG" alt="">
         </div>
 
         <div id="div-elemento">
-            <img class="elemento" src="./assets/air1.PNG" alt="">
+            <img class="elemento" src="./assets/air1.PNG" alt=""
+            onclick="trocaImagem('./assets/air1.PNG')">
+            
+            <img id="width" class="elemento" src="./assets/air2.PNG" alt=""
+            onclick="trocaImagem('./assets/air2.PNG')">
 
-            <img class="elemento" src="./assets/air2.PNG" alt="">
-
-            <img class="elemento" src="./assets/air3.PNG" alt="">
+            <img id="width" class="elemento" src="./assets/air3.PNG" alt=""
+            onclick="trocaImagem('./assets/air3.PNG')">
         </div>
 
         <div id="color-black">
            
+            <span class="material-icons"><button> 
+                search
+                </button></span>
+
+        
+
+            <img class="menu2" src="./assets/account.png" alt="">
+
+            <img class="menu2" src="./assets/bag.png" alt="">
+
+            <img class="menu2" src="./assets/filter.png" alt="">
+
         </div>
-
-
 
     </div>
 
-
-
-
-
-
 </body>
 
+<script> 
+
+let imagem = document.querySelector("#img-principal")
+
+function trocaImagem(endereco) {
+    imagem.src = endereco
+
+}
+
+
+</script>
+
+
 </html>
+

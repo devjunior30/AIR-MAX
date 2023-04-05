@@ -47,7 +47,7 @@ p {
     color: #4F4F4F;
 }
 
-button {
+#button {
     margin-left: 13vw;
     height: 40px;
     width: 100px;
@@ -65,12 +65,12 @@ a {
 }
 
 #img-principal {
-    width: 60%;
+    width: 23vw;
     display: flex;
     justify-content: flex-end;
     position: absolute;
-    right: 20%;
-    top: 10%;
+    right: 30%;
+    top: 30%;
     transform: skew(18deg, -0.06turn);
 }
 
@@ -80,7 +80,7 @@ a {
     margin: 10px;
     border: 5px rgb(128,128,128, .6) solid;
     border-radius: 15px;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 #div-elemento {
@@ -89,10 +89,27 @@ a {
 
 #color-black {
     position: absolute;
-    width: 51%;
+    width: 40%;
     height: 100vh;
     background: black;
     right: 0;
     top: 0;
     z-index: -1;
 }
+
+.menu2 {
+    width: 35px;
+    margin-top: 14px;
+    margin-left: 25px;
+    justify-items: center;
+    height: 37px;
+    background: white;
+    border: 3px white solid;
+    border-radius: 10px;
+}
+
+.material-icons {
+    
+}
+
+
