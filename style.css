@@ -184,7 +184,17 @@ strong {
         display: none;
     }
 
+    #logo-airmax {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #elementos2 {
+        display: none;
+    }
     span {
+        font-size: 18px;
         display: none;
     }
 
@@ -217,7 +227,9 @@ strong {
         opacity: 1;
         right: 0;
         top: auto;
-        width: 232px;
+        width: 175px;
+        bottom: 43px;
+        left: 50px;
     }
 
 
