@@ -216,6 +216,7 @@ strong {
         margin-left: auto;
         margin-right: auto;
         font-size: 20px;
+        color: black;
     }
 
     #button {
@@ -224,12 +225,10 @@ strong {
 
 
     #img-principal {
-        opacity: 1;
-        right: 0;
-        top: auto;
+        background-color: #808080;
         width: 175px;
-        bottom: 43px;
-        left: 50px;
+        top: 256px;
+       
     }
 
 
