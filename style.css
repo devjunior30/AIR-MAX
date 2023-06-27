@@ -67,16 +67,14 @@ h3 {
 }
 
 #img-principal {
-    width: 23vw;
+    width: 336px;
     display: flex;
     justify-content: flex-end;
     position: absolute;
-    right: 42vw;
-    top: 282px;
+    right: 21%;
+    top: 23%;
     transform: skew(18deg, -0.06turn);
-    z-index: -1;
     border-radius: 50px;
-    opacity: 0.7;
 }
 
 .elemento {
@@ -94,15 +92,15 @@ h3 {
     margin-top: 35px;
 }
 
-#color-black {
+#colorBlack {
+    background-color: #4F4F4F;
+    clip-path: circle(40%);
     position: absolute;
-    width: 40%;
-    height: auto;
-    background: black;
-    right: 0;
     top: 0;
+    right: 14%;
+    width: 34%;
+    height: 100%;
     z-index: -1;
-    cursor: pointer;
 }
 
 .menu2 {
