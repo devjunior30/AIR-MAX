@@ -21,13 +21,10 @@
             <div>
                 <img id="logo-airmax" src="./assets/logo-airmax.PNG" width="150px" alt="logo-air-max">
 
-                <span>Home</span>
-                    
-
-
-                <span>Shop</span>
-                <span class="span">Blog</span>
-                <span class="span">Pages</span>
+                <a href="" class="myLink">Home</a>
+                <a href="" class="myLink">Shop</a>
+                <a href="" class="myLink" class="span">Blog</a>
+                <a href="" class="myLink" class="span">Pages</a>
 
             <div id="elementos2">
                 
@@ -36,13 +33,19 @@
                     </i>
                 
 
-                    <i  class="material-icons">account_circle</i>
+                    <i  class="material-icons">
+                        account_circle
+                    </i>
 
 
-                    <i class="material-icons">shopping_bag</i>
+                    <i class="material-icons">
+                        shopping_bag
+                    </i>
     
 
-                    <i class="material-icons">filter_list</i>
+                    <i class="material-icons">
+                        filter_list
+                    </i>
              
             </div>
 
@@ -78,13 +81,13 @@
 
         <div id="div-elemento">
             <img id="max" class="elemento" src="./assets/air1.PNG" alt=""
-             onclick="trocaImagem('./assets/air1.PNG')">
+             onclick="trocaImagem('./assets/air1.PNG', 'red')">
 
             <img id="width" class="elemento" src="./assets/air2.PNG"
-             alt="" onclick="trocaImagem('./assets/air2.PNG')">
+             alt="" onclick="trocaImagem('./assets/air2.PNG'), myButton(`#00FFFF`)">
 
             <img id="width" class="elemento" src="./assets/air3.PNG" 
-            alt="" onclick="trocaImagem('./assets/air3.PNG')">
+            alt="" onclick="trocaImagem('./assets/air3.PNG'), troquei_a_cor('#00FFFF')">
         </div>
 
         <div id="colorBlack"></div>
