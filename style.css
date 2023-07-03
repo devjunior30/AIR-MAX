@@ -154,8 +154,8 @@ h3 {
 }
 
 .material-icons:hover {
-    background-color: #B22222;
-    transition: 1.5s;
+    background-color: red;
+    transition: 1.3s;
 }
 
 i:hover {
